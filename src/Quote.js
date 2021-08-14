@@ -31,7 +31,7 @@ function Quote({author}) {
             <h1>Quotes</h1>
             {items.map((item)=> {
                 return <div>
-                <h3 className="foot">{item.quote}</h3>
+                <h3 className="quotes">{item.quote}</h3>
                 </div>
                 
             })}

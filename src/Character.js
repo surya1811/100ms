@@ -32,18 +32,20 @@ function Character(){
     return <div>
         {
         items.map((item)=>{
-          return <div>
+          return <div className="items">
           
             
-            <h1>{item.name}</h1>
-            <img src={item.img} alt="character" className="card"/>
-            <h3>Date of Birth: {item.birthday}</h3>
-            <h4>Status: {item.status}</h4>
-            <h6>Nickname: {item.nickname}</h6>
-            <h3>Portrayed by: {item.portrayed}</h3>
-            <h3>Appearances</h3>
+          <h1 className="head">{item.name}</h1>
+            <img src={item.img} alt="character"className="card"/>
+            
+            <b>Nickname: {item.nickname}</b><br/>
+            <b>Date of Birth: {item.birthday}</b><br/>
+            <b>Status: {item.status}</b><br/>
+          
+            <b>Portrayed by: {item.portrayed}</b><br/>
+            <b>Appearances</b><br/>
             <p>{item.appearances}</p>
-            <Quote author = {item.name} />
+            <Quote author = {item.name}/>
             </div>
             
           

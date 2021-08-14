@@ -1,10 +1,18 @@
+body
+{
+  padding-left: 100px;
+  font-family:"Zapf-Chancery",cursive;
+ font-size: 25px;
+  background-color:#fff0f5;
+ color:#0f0f6d;
+}
 .foot{
   background-color:#bbb;
   color:white;
   max-height:auto;
   max-width:100%;
   font-weight:italics;
-  background-image:linear-gradient(to top left,blue,green);
+  background-image:linear-gradient(to top left,rgb(231, 69, 196),green);
   font-size:30px;
   font-family:cursive;
   display:inline-block;
@@ -16,11 +24,81 @@
   box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
   }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin-left:-8px;
-    margin-right:3px;
+    box-shadow: 0 4px 8px 0 rgba(119, 5, 5, 0.2);
+    margin-left:auto;
+    margin-right:auto;
+    clear: both;
+    display: block;
   }
-  
-  
-  
-  
+  .items
+  {
+    font-family:"Times New Roman',serif";
+    font-weight:400;
+    margin:20px;
+    font-size: 30px;
+    text-align:center;
+    color:#7d2941;
+    padding:2px;
+    
+    line-height:1.5;
+   
+  }
+  .quotes
+  {
+    background-color:#011f4b;
+    color:#011f4b;
+	text-align:center;
+  font-family:'American Typewriter',serif;
+  font-weight:500;
+  font-size:35px;
+  margin:5px;
+	  max-height:auto;
+  max-width:100%;
+  font-weight:italics;
+  background-image:linear-gradient(to top left,orange,rgb(223, 140, 140));
+  font-size:30px;
+  font-family:cursive;
+  display:inline-block;
+  padding:10px;
+  text-align:center;
+  margin:10px 30px;
+  border:2px solid seagreen;
+  cursor:pointer;
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .head
+  {
+    background-color:#bbb;
+    color:white;
+   
+    font-weight:italics;
+    background-image:linear-gradient(to top left,blue,green);
+    font-size:30px;
+    font-family:cursive;
+    margin-right: 100px;
+    padding:10px;
+    text-align:center;
+    
+  }
+ .option
+ {
+   display: block;
+margin:0 auto;
+   text-align:center;
+   background-color:rgb(108, 207, 224);
+   font-size:30px;
+ }
+ a:visited
+	{
+	color:green;
+	}
+a:active
+	{
+color:orange;
+	}
+  a:hover
+	{
+color:hotpink;
+	}
+
+ 

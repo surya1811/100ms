@@ -67,8 +67,9 @@ function App() {
   return (
     <div>
       
-      <select value={category} onChange={categoryChange}>
-        <option value="none" >none</option>
+      <select value={category} onChange={categoryChange} className="option" >
+       
+        <option value="Select Option" >Select Option</option>
         <option value="better_call_saul" >Better Call Saul</option>
         <option value="breaking_bad" >Breaking Bad</option>
       </select>
@@ -77,15 +78,15 @@ function App() {
         items.map((item)=>{
           return <div>
           
-          <p className="foot">{item.name} {item.occupation} {item.birthday} {item.status} <a href={"/"+item.char_id}>More</a></p>
+          <p>{item.name} {item.occupation} {item.birthday} {item.status} <a href={"/"+item.char_id}>Read More</a></p>
             </div>
             
           
         })
       }
       
-      <button onClick={sub10}>Previous</button>
-      <button onClick={add10}>Next</button>
+      <button onClick={sub10} className="foot">Previous</button>
+      <button onClick={add10} className="foot">Next</button>
     </div>
   );
 }
